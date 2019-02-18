@@ -11,7 +11,7 @@ class App extends Component {
           <p>
             Edit <code>src/App.js</code> and save to reload.
 
-	    EDITED again
+	        <br>Feature branch</br>
           </p>
           <a
             className="App-link"
