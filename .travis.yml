@@ -6,7 +6,7 @@ services:
 before_install:
   - docker build -t deepphreezer/docker-react -f Dockerfile.dev .
 
-scripts:
+script:
   - docker run deepphreezer/docker-react npm run test -- --coverage
 
 deploy:
